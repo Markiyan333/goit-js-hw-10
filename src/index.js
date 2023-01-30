@@ -3,6 +3,7 @@ import { fetchCountries } from '../src/restCountriesApi';
 import Lodash from 'lodash.debounce';
 import Notiflix from 'notiflix';
 
+
 const DEBOUNCE_DELAY = 300;
 
 const input = document.querySelector('#search-box');
