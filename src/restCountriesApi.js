@@ -1,6 +1,7 @@
 const KEY = 'https://restcountries.com/v3.1/name'
 
 export const fetchCountries = name => {
+  
   return fetch(`
     ${KEY}/${name}?fields=name,capital,population,flags,languages`
   )
